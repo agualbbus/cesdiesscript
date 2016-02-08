@@ -14,9 +14,9 @@ jQuery(function() {
 
     img.css({
       'transition-property': 'transform',
-      'transition-duration': '0s',
+      'transition-duration': '0.5s',
       'transition-timing-function': 'linear',
-      'transition-delay': '0.3s'
+      'transition-delay': '0'
     });
 
     link.on('mouseover', function(){
