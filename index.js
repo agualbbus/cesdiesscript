@@ -12,6 +12,13 @@ jQuery(function() {
     var link = element.link;
     var img = jQuery(element.img);
 
+    img.css({
+      'transition-property': 'transform',
+      'transition-duration': '0s',
+      'transition-timing-function': 'linear',
+      'transition-delay': '0.3s'
+    });
+
     link.on('mouseover', function(){
       img.css({'transform': 'scale(1.1)'});
     });
